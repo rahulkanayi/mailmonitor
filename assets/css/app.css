@@ -1,0 +1,36 @@
+body {
+    background: #f7f8fa;
+}
+
+.content-panel {
+    background: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+}
+
+.table thead th {
+    white-space: nowrap;
+}
+
+.form-error {
+    margin-bottom: 1rem;
+}
+
+.server-search-container {
+    position: relative;
+}
+
+.server-suggestions {
+    position: absolute;
+    z-index: 1050;
+    top: 100%;
+    right: calc(var(--bs-gutter-x) * 0.5);
+    left: calc(var(--bs-gutter-x) * 0.5);
+    max-height: 16rem;
+    overflow-y: auto;
+}
+
+.server-suggestions[hidden] {
+    display: none;
+}
